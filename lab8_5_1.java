@@ -21,7 +21,7 @@ public class Lab8_lab5 {
         // TODO code application logic here
        nhapDS();
        xuatDS();
-       
+       tongDS();
         
     }
     
@@ -44,5 +44,13 @@ public class Lab8_lab5 {
         for(int i= 0; i< array.size();i++){
             System.out.println(array.get(i).toString());
         }
+    }
+    private static void tongDS() {
+        double tong = 0;
+        for(int i=0; i<array.size();i++){
+            tong = tong + array.get(i);
+           
+        }
+        System.out.println("tong DS"+tong);
     }
 }
